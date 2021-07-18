@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Donation-Website</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">SPARKS FOUNDATION</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#donate" class="nav__link">Donate</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Contact us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home" id="home">
+                <img src="assets/img/home.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Donate for a good cause.</span>
+                        <h1 class="home__data-title">Your kindness <br> is <b>someone’s <br> hope.</b></h1>
+                        <a href="#donate" class="button">Donate</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/thesparksfoundation.info/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/thesparksfoundation.info/?hl=en" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/tsfsingapore?lang=en" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">The Sparks Foundation</h2>
+                        <p class="about__description">The sparks foundation is working to bring parity in education, making sure children have equal opportunity at success, irrespective of the financial background.
+                        </p>
+                        <a href="https://www.thesparksfoundationsingapore.org/" class="button">Website</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.png" alt="" class="about__img-two">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+            <section class="donate section" id="donate">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Donate Now</h2>
+                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HaSwkISA5hJv9C" async> </script> </form>
+                        
+                       
+                    </div>
+
+                    
+
+                    </div>
+                </div>
+            </section>
+
+                    <section class="video section">
+                <h2 class="section__title"></h2>
+
+                <div class="video__container container">
+                    <p class="video__description">
+                    </p>
+
+                    <div class="video__content">
+                        <div id="video-file">
+                            <img src="./assets/img/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg" alt="donate">
+                        </div>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            
+            
+        </main>
+
+       
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
