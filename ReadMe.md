@@ -12,3 +12,5 @@
 
  [Click to watch video](.. " Click to watch video") 
 
+Technology stack:- Frontend:-HTML,CSS,JS,SCSS
+Razorpay button doc: https://razorpay.com/docs/payment-button/donations/
